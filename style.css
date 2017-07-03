@@ -119,7 +119,7 @@ a:hover{
 [1. body ]
 --------------------------------------------------------------------*/
 body {
-	background: #fff;
+	background: #f4f4f4;
 	color: #626262;
 	font-size: 15px;
 	line-height: 1.4;
@@ -423,10 +423,12 @@ html,body{height:100%;}
   margin-top: 20px;
   padding: 15px 30px;
 }
+
+/* SOFTWARES E SERVIÇOS*/
 .start_now.text-center a:hover, .blog {
-  background: #e7b02d none repeat scroll 0 0;
+  background: #f4f4f4 none repeat scroll 0 0;
   color: #fff;
-  border: 3px solid #e7b02d;
+  border: 3px solid re;
 }
 /*------------------------------------------------------------------
 [5. What-We-Do ]
@@ -436,7 +438,7 @@ html,body{height:100%;}
   color: #fff;
 }
 .blog-title p ,.what_do p {
-  color: #fff;
+  color: black;
 }
 /*-------------------
 [ 5.1 What-We-Do-text ]
@@ -753,12 +755,12 @@ html,body{height:100%;}
   width: 100%;
 }
 .blog_img a {
-  background-color: #4d4d4d;
+  background-color: #f4f4f4;
   position: relative;
   width: auto;
   display:block;
 }
-.blog_img a:hover:after{opacity:.1} 
+.blog_img a:hover:after{opacity:.1}
 .blog_img a:hover:after  {
     transform: scale(1);
 }
