@@ -170,7 +170,7 @@ body {
   transition: none;
 }
 #nav li.active a {
-  border-bottom: 2px solid #3299CC;
+  border-bottom: 2px solid white;
 }
 .nav.nav-tabs {
   border-bottom: 0 none;
@@ -184,15 +184,15 @@ body {
   border-radius: 0;
 }
 #nav a:hover{
-  border-bottom:2px solid #3299CC;
+  border-bottom:2px solid white;
   background:none;
 }
 /*jquery-sticky-menu*/
 .is-sticky header {
-  background: #fff none repeat scroll 0 0;
+  background: #3299CC none repeat scroll 0 0;
 }
 .is-sticky #nav a{
-  color:#777777;
+  color:white;
 }
 /*------------------------------------------------------------------
 [2. Slider ]
@@ -427,8 +427,8 @@ html,body{height:100%;}
 /* SOFTWARES E SERVIÇOS*/
 .start_now.text-center a:hover, .blog {
   background: #f4f4f4 none repeat scroll 0 0;
-  color: #fff;
-  border: 3px solid re;
+  color: #777777;
+
 }
 /*------------------------------------------------------------------
 [5. What-We-Do ]
@@ -791,15 +791,15 @@ html,body{height:100%;}
   margin-top: 50px;
 }
 .all_veiw a, .btn-black {
-  background: #000 none repeat scroll 0 0;
-  border: 2px solid #000;
+  background: #3299CC none repeat scroll 0 0;
+  border: 1px solid #3299CC;
   font-size: 11px;
   letter-spacing: 1px;
   padding: 10px 14px;
 }
 .all_veiw a:hover,.btn-black:hover{
-  background:#E7B02D;
-  color:#fff;
+  background:white;
+  color:black;
 }
 /*------------------------------------------------------------------
 [12. Client ]
@@ -872,7 +872,7 @@ input:focus,textarea:focus {
   background: #f4f4f4 none repeat scroll 0 0;
 }
 .social_icon i {
-  color: #DFA92D;
+  color: #3299CC;
   font-size: 22px;
   margin: 0 25px;
 }
@@ -883,7 +883,7 @@ input:focus,textarea:focus {
 [ 17 Footer ]
 --------------------------------------------------------------------*/
 footer {
-  background: rgb(37, 37, 37) none repeat scroll 0 0;
+  background: #3299CC none repeat scroll 0 0;
   padding: 15px 0;
 }
 .footer_copyright img {
@@ -892,12 +892,13 @@ footer {
 }
 .footer_copyright p {
   float: left;
+  color: black;
   margin: 0;
   padding-top: 10px;
 }
 /*ScrollUp*/
 #scrollUp {
-  background-color: #252525;
+  background-color: #3299CC;
   padding: 5px 8px;
   right: 45px;
   text-align: center;
