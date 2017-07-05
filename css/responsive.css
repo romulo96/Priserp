@@ -76,7 +76,7 @@
   margin: 0;
 }
 .slicknav_menu .slicknav_icon-bar {
-  background-color: #ffc200;
+  background-color: #3299CC;
   height: 3px;
   width: 42px;
 }
@@ -92,12 +92,12 @@
 }
 .slicknav_nav a:hover{
   color: #fff;
-  background:#FBC011;
+  background:#3299CC;
   border-radius:0;
 }
 .slicknav_nav .slicknav_row:hover{
   color: #fff;
-  background:#FBC011;
+  background: #3299cc;
   border-radius:0;
 }
 .logo {
@@ -198,7 +198,7 @@
   margin: 0;
 }
 .slicknav_menu .slicknav_icon-bar {
-  background-color: #ffc200;
+  background-color: #3299CC;
   height: 3px;
   width: 42px;
 }
@@ -214,12 +214,12 @@
 }
 .slicknav_nav a:hover{
   color: #fff;
-  background:#FBC011;
+  background: #3299CC;
   border-radius:0;
 }
 .slicknav_nav .slicknav_row:hover{
   color: #fff;
-  background:#FBC011;
+  background: #3299cc;
   border-radius:0;
 }
 .logo {
