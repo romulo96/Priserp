@@ -51,11 +51,8 @@
         </div>
     </div>
 </header>
-<!-- header-section-end -->
-<!-- slider-section-start -->
 <section class="slider_area">
     <div id="image_carousel_1" class="carousel slide" data-ride="carousel">
-
         <div class="carousel-inner" role="listbox">
             <div class="item active">
                 <div class="single_slide">
@@ -67,9 +64,7 @@
                                     <div class="table">
                                         <div class="table-cell">
                                             <h1>SISTEMA DE GESTÃO PARA MICRO E PEQUENAS EMPRESAS</h1>
-
                                             <span>Conheça o Melhor Sistema de Gestão (ERP) para Micro e Pequenos Lojistas.</span><br/>
-
                                         </div>
                                     </div>
                                 </div>
@@ -78,87 +73,59 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </section>
-<!-- slider-section-end -->
-<!-- About-section-start -->
 <section class="about section_padding" id="about">
     <div class="container">
         <div class="row text-center">
             <div class="about_title col-text-center section-title wow flipInX" data-wow-delay="0.3s">
                 <h1>QUEM SOMOS</h1>
                 <p style="text-align: justify">
-
                     </br>
                     A Priserp Sistemas atua no mercado há 15 anos, é uma empresa especializada em desenvolvimento de
                     sistemas de automação para o comercio em geral.
-                    Temos uma equipe de profissionais  experientes e capacitados atuando nas áreas Comerciais, Financeira,
+                    Temos uma equipe de profissionais experientes e capacitados atuando nas áreas Comerciais,
+                    Financeira,
                     Programação e Atendimento.
                     Contamos com parceiros comerciais, para auxiliar nossos clientes de maneira rápida, com
-                    qualidade no atendimento, disponibilizando meios diferenciados para que tenham  maior
+                    qualidade no atendimento, disponibilizando meios diferenciados para que tenham maior
                     controle e lucratividade da sua empresa de forma segura.
                 </p>
             </div>
             <div class="col-sm-4">
                 <div class="about_title col-text-center section-title wow flipInX" data-wow-delay="0.3s">
-
                     <h1>MISSÃO</h1>
-                    <p style="text-align: justify"> </br> Oferecer soluções inovadoras, ágeis e eficazes, garantindo
-                        sempre a segurança no gerenciamento de informações e satisfação dos clientes.</p>
+                    <p style="text-align: justify"> </br>
+                        Oferecer soluções inovadoras, ágeis e eficazes, garantindo
+                        sempre a segurança no gerenciamento de informações e satisfação dos clientes.
+                    </p>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="about_title col-text-center section-title wow flipInX" data-wow-delay="0.3s">
-
                     <h1>VISÃO</h1>
-                    <p style="text-align: justify"> </br> Ser reconhecida em todo território nacional como a melhor
+                    <p style="text-align: justify"> </br>
+                        Ser reconhecida em todo território nacional como a melhor
                         opção em soluções para gerenciar sua empresa.</p>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="about_title col-text-center section-title wow flipInX" data-wow-delay="0.3s">
-
                     <h1>VALORES</h1>
                     <p style="text-align: justify"> </br><i class="fa fa-check" aria-hidden="true"></i> Ética na gestão.<br>
                         <i class="fa fa-check" aria-hidden="true"></i> Fazer sempre o melhor através da inovação.<br>
-                        <i class="fa fa-check" aria-hidden="true"></i> Compromisso com o Cliente e com a Empresa, buscando um relacionamento contrutivo Construtivos.<br>
-                        <i class="fa fa-check" aria-hidden="true"></i>  Valorização e respeito aos nossos colaboradores.</p>
+                        <i class="fa fa-check" aria-hidden="true"></i> Compromisso com o Cliente e com a Empresa,
+                        buscando um relacionamento contrutivo Construtivos.<br>
+                        <i class="fa fa-check" aria-hidden="true"></i> Valorização e respeito aos nossos colaboradores.
+                    </p>
                 </div>
             </div>
         </div>
-
     </div>
 </section>
-
 <hr class="margin_eight"/>
-<!-- about-section-end -->
-<!-- team-section-start -->
 
-<!-- team-section-end -->
-<!-- what-we-do-section-start -->
-
-<!-- what-we-do-section-end -->
-<!-- service-section-start -->
-
-<!-- service-section-end -->
-<!-- percent-section-start -->
-
-<!-- percent-section-end -->
-<!-- work-section-start -->
-
-<!-- work-section-end -->
-<!-- brand-logo-section-start -->
-
-<!-- brand-logo-section-end -->
-<!-- happy-clients-section-start -->
-
-<!-- happy-section-end -->
-<!-- Testimonials-we-do-section-start -->
-
-<!-- Testimonials-section-end -->
-<!-- blog-section-start -->
 <section class="blog section_padding text-center" id="blog">
     <div class="container">
         <div class="row">
@@ -179,7 +146,6 @@
                         <span>GESTÃO DE COMPRAS</span><br>
                         <span>GESTÃO DE ESTOQUE</span><br>
                         <span>RELATÓRIOS</span><br>
-
                         <div class="all_veiw">
                             <a href="#">MAIS DETALHES</a>
                         </div>
@@ -282,11 +248,6 @@
 <hr class="margin_eight"/>
 
 
-<!-- blog-section-end -->
-<!-- client-section-start -->
-
-<!-- client-section-end -->
-<!-- contact-section-start -->
 <section class="contact section_padding" id="contact">
     <div class="container">
         <div class="row">
@@ -324,26 +285,77 @@
                 </div>
                 <hr class="margin_eight"/>
 
+                <form action="<? $PHP_SELF; ?>" method="POST">
 
-                <div class="col-sm-6">
-                    <input type="text" placeholder="SEU NOME" name="name">
-                    <input type="text" placeholder="SEU EMAIL" name="email">
-                </div>
-                <div class="col-sm-6">
-                    <div class="message_text">
-                        <textarea name="message" rows="3" cols="40" placeholder="MENSAGEM"
-                                  required="required"></textarea>
+                    <div class="col-sm-6">
+                        <input type="text" required="" placeholder="SEU NOME" name="nome">
+                        <input type="email" required="" placeholder="SEU EMAIL" name="email">
+                        <input type="number" required="" placeholder="SEU TELEFONE" name="telefone">
                     </div>
-                </div>
-                <div class="col-md-12 col-sm-12">
+                    <div class="col-sm-6">
+                        <div class="message_text">
+                        <textarea name="mensagem" rows="8" cols="40" placeholder="MENSAGEM"
+                                  required="required"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12">
 
-                    <input type="button" class="btn-black " value="ENVIAR MENSAGEM" name="send message"
-                           id="contact-button">
-                </div>
+                        <input type="submit" class="btn-black " value="ENVIAR MENSAGEM" name="BTEnvia"
+                               id="contact-button">
+                    </div>
+
+                </form>
             </div>
         </div>
     </div>
 </section>
+
+<?php
+if (isset($_POST['BTEnvia'])) {
+
+    //Variaveis de POST, Alterar somente se necessário
+    //====================================================
+    $nome = $_POST['nome'];
+    $email = $_POST['email'];
+    $telefone = $_POST['telefone'];
+    $mensagem = $_POST['mensagem'];
+    //====================================================
+
+    //REMETENTE --> ESTE EMAIL TEM QUE SER VALIDO DO DOMINIO
+    //====================================================
+    $email_remetente = "suporte@priserp.com.br"; // deve ser uma conta de email do seu dominio
+    //====================================================
+
+    //Configurações do email, ajustar conforme necessidade
+    //====================================================
+    $email_destinatario = "priserpsistemas@gmail.com"; // pode ser qualquer email que receberá as mensagens
+    $email_reply = "$email";
+    $email_assunto = "Email do Site"; // Este será o assunto da mensagem
+    //====================================================
+
+    //Monta o Corpo da Mensagem
+    //====================================================
+    $email_conteudo = "Nome = $nome \n";
+    $email_conteudo .= "Email = $email \n";
+    $email_conteudo .= "Telefone = $telefone \n";
+    $email_conteudo .= "Mensagem = $mensagem \n";
+    //====================================================
+
+    //Seta os Headers (Alterar somente caso necessario)
+    //====================================================
+    $email_headers = implode("\n", array("From: $email_remetente", "Reply-To: $email_reply", "Return-Path: $email_remetente", "MIME-Version: 1.0", "X-Priority: 3", "Content-Type: text/html; charset=UTF-8"));
+    //====================================================
+
+    //Enviando o email
+    //====================================================
+    if (mail($email_destinatario, $email_assunto, nl2br($email_conteudo), $email_headers)) {
+        echo "<script>alert('Email Enviado com sucesso, Em Breve Você Será Respondido!');</script>";
+    } else {
+        echo "</b>Falha no envio do E-Mail!</b>";
+    }
+    //====================================================
+}
+?>
 <!-- contact-section-end -->
 <!-- contact-icon-section-start -->
 
